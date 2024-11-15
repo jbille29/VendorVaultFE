@@ -1,0 +1,36 @@
+.navbar {
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .navList {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navItem {
+    font-size: 1em;
+  }
+  
+  .navItem a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .navItem a:hover {
+    color: #cccccc;
+  }
+
+  .navLabel {
+    color: #cccccc;
+    align-self: flex-start;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  

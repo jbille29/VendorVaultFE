@@ -1,0 +1,118 @@
+.dashboard {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f0f4f8;
+  border-radius: 8px;
+  border: 1px solid #c3d3df;
+}
+
+.title {
+  font-size: 2em;
+  color: #27476e;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.notificationIcon {
+  position: relative;
+  font-size: 1.5em;
+  cursor: pointer;
+  display: flex;
+}
+
+.icon {
+  color: #4a90e2;
+}
+
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border-radius: 50%;
+  padding: 3px 7px;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+.welcomeMessage {
+  font-size: 1em;
+  margin-bottom: 1em;
+  color: #6b7280;
+}
+
+.quickActions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.actionButton {
+  padding: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.actionButton:hover {
+  background-color: #357ab7;
+}
+
+.section {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.sectionTitle {
+  font-size: 1.2em;
+  color: #27476e;
+  margin-bottom: 0.5em;
+}
+
+.documentList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.documentItem {
+  font-size: 1em;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  color: #333;
+}
+
+.approvalTag {
+  background-color: #ffc107;
+  color: #333;
+  border-radius: 5px;
+  padding: 2px 8px;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.notification {
+  color: #6b7280;
+  font-size: 0.9em;
+}
+
+@media (min-width: 768px) {
+  .quickActions {
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-between;
+  }
+}

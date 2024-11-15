@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  .content {
+    width: 100%;
+    max-width: 800px; /* Optional max-width for readability */
+    padding: 20px;
+  }
+  
